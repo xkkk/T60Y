@@ -58,25 +58,24 @@ data class IndicatorData(val id: String, val title: String, val content: Content
 "title": "后排座椅安全带提示灯*",
  */
 val originRedIndicatorHotspotList = listOf(
-    Hotspot(121, 98, "1"),
-    Hotspot(63, 608, "2"),
-    Hotspot(65, 546, "3"),
-    Hotspot(1931, 569, "4"),
-    Hotspot(68, 682, "5"),
-    Hotspot(1934, 368, "6"),
-    Hotspot(1845, 100, "7"),
-    Hotspot(1932, 642, "8"),
-    Hotspot(1934, 495, "9"),
-    Hotspot(1928, 194, "10"),
-    Hotspot(290, 103, "11"),
-    Hotspot(220, 103, "12"),
-    Hotspot(430, 103, "13"),
-    Hotspot(63, 480, "14"),
+    Hotspot(50, 76, "1"),
+    Hotspot(22, 272, "3"),
+    Hotspot(22, 298, "2"),
+    Hotspot(200, 363, "4"),
+    Hotspot(22, 327, "5"),
+    Hotspot(933, 162, "6"),
+    Hotspot(300, 358, "7"),
+    Hotspot(267, 360, "8"),
+    Hotspot(933, 243, "9"),
+    Hotspot(930, 105, "10"),
+    Hotspot(668, 360, "11"),
+    Hotspot(237, 360, "12"),
+    Hotspot(610, 360, "13"),
 )
 
 
 val redIndicatorHotspotList = originRedIndicatorHotspotList.map {
-    it.calculateScale(1976, 828)
+    it.calculateScale(954, 400)
 }
 
 /**
@@ -129,29 +128,26 @@ val redIndicatorHotspotList = originRedIndicatorHotspotList.map {
 "title": "智能远光灯指示灯*",
  */
 private val originYellowIndicatorHotspotList = listOf(
-    Hotspot(50, 565, "1"),
-    Hotspot(50, 499, "2"),
-    Hotspot(1452, 752, "3"),
-    Hotspot(50, 340, "4"),
-    Hotspot(1934, 453, "5"),
-    Hotspot(1934, 528, "6"),
-    Hotspot(1934, 678, "7"),
-//    Hotspot(23, 208, "8"),
-    Hotspot(50, 218, "9"),
-    Hotspot(911, 172, "10"),
-    Hotspot(1934, 240, "11"),
-    Hotspot(632, 180, "12"),
-    Hotspot(539, 174, "13"),
-    Hotspot(1768, 100, "14"),
-    Hotspot(96, 101, "17"),
-    Hotspot(410, 751, "18"),
-    Hotspot(1934, 166, "19"),
-    Hotspot(1934, 97, "20"),
-    Hotspot(1934, 320, "21"),
-    Hotspot(1629, 98, "22"),
+    Hotspot(23, 275, "1"),
+    Hotspot(23, 247, "2"),
+    Hotspot(774, 401, "3"),
+    Hotspot(23, 175, "4"),
+    Hotspot(1024, 239, "5"),
+    Hotspot(1024, 273, "6"),
+    Hotspot(1024, 359, "7"),
+    Hotspot(23, 208, "8"),
+    Hotspot(23, 113, "9"),
+    Hotspot(169, 50, "10"),
+    Hotspot(1024, 113, "11"),
+    Hotspot(132, 58, "12"),
+    Hotspot(91, 52, "13"),
+    Hotspot(932, 52, "14"),
+    Hotspot(1024, 157, "15"),
+    Hotspot(868, 52, "16"),
+    Hotspot(33, 53, "17")
     )
 val yellowIndicatorHotspotList = originYellowIndicatorHotspotList.map {
-    it.calculateScale(1975, 828)
+    it.calculateScale(1046, 439)
 }
 
 /**
@@ -191,24 +187,22 @@ val yellowIndicatorHotspotList = originYellowIndicatorHotspotList.map {
 
 //1060*445
 private val originGreenIndicatorHotspotList = listOf(
-    Hotspot(516,99,"1"),
-    Hotspot(1491,97,"2"),
-    Hotspot(1846,102,"3"),
-    Hotspot(1082,172,"4"),
-    Hotspot(988,172,"5"),
-    Hotspot(905,172,"6"),
-    Hotspot(1937,368,"7"),
-    Hotspot(634,181,"8"),
-    Hotspot(538,176,"9"),
-    Hotspot(1597,100,"10"),
-    Hotspot(1932,283,"11"),
-    Hotspot(114,682,"12"),
-    Hotspot(523,753,"13"),
-    Hotspot(625,746,"14")
+    Hotspot(275,52,"1"),
+    Hotspot(800,52,"2"),
+    Hotspot(303,400,"3"),
+    Hotspot(234,52,"4"),
+    Hotspot(190,55,"5"),
+    Hotspot(146,54,"6"),
+    Hotspot(1038,195,"7"),
+    Hotspot(92,60,"8"),
+    Hotspot(50,51,"9"),
+    Hotspot(857,53,"10"),
+    Hotspot(1036,152,"11"),
+    Hotspot(22,115,"12"),
 )
 
 val greenIndicatorHotspotList = originGreenIndicatorHotspotList.map {
-    it.calculateScale(1976,828)
+    it.calculateScale(1060,445)
 }
 
 
@@ -239,19 +233,18 @@ val greenIndicatorHotspotList = originGreenIndicatorHotspotList.map {
 */
 //1060*445
 private val originBlueIndicatorHotspotList = listOf(
-    Hotspot(1604,102,"1"),
-    Hotspot(1690,102,"2"),
-    Hotspot(1929,366,"3"),
-    Hotspot(431,102,"4"),
-    Hotspot(1772,102,"5"),
-    Hotspot(94,94,"6"),
-    Hotspot(1082,182,"7"),
-    Hotspot(543,174,"8"),
-    Hotspot(903,170,"9"),
-    Hotspot(992,179,"10"),
+    Hotspot(852,52,"1"),
+    Hotspot(253,55,"2"),
+    Hotspot(214,55,"3"),
+    Hotspot(174,55,"4"),
+    Hotspot(1042,193,"5"),
+    Hotspot(93,52,"6"),
+    Hotspot(698,405,"7"),
+    Hotspot(894,52,"8"),
+    Hotspot(31,52,"9"),
 
 )
 
 val blueIndicatorHotspotList = originBlueIndicatorHotspotList.map {
-    it.calculateScale(1976,827)
+    it.calculateScale(1060,445)
 }

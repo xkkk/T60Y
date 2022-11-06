@@ -7,7 +7,6 @@ import com.baorun.handbook.t60y.db.historyDao
 import com.baorun.handbook.t60y.ext.getDataJson
 import com.baorun.handbook.t60y.network.Api
 import com.baorun.handbook.t60y.network.RetrofitManager
-import com.baorun.handbook.t60y.data.*
 import com.blankj.utilcode.util.GsonUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
@@ -231,7 +230,7 @@ object DataManager {
 //                    data.data
 //                }
 
-                val totalList = changjingData.plus(gongnengData)
+                val totalList = changjingData.plus(videoData).plus(gongnengData)
                 val result = mutableListOf<ChildrenData>()
 
                 totalList.forEach {
@@ -244,17 +243,9 @@ object DataManager {
                             if (it.htmlUrl.isNotEmpty())
                                 result.add(it)
                         }
-                        it.children.forEach {
-                            if (it.name.contains(key, true)) {
-                                if (it.htmlUrl.isNotEmpty())
-                                    result.add(it)
-                            }
-                            it.children.forEach {
-                                if (it.name.contains(key, true)) {
-                                    if (it.htmlUrl.isNotEmpty())
-                                        result.add(it)
-                                }
-                            }
+                        val third = it.children.filter { it.name.contains(key, true) }
+                        if (third.isNotEmpty()) {
+                            result.addAll(third)
                         }
 
                     }

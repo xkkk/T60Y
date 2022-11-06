@@ -5,6 +5,7 @@ import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
+import androidx.lifecycle.lifecycleScope
 import com.baorun.handbook.t60y.R
 import com.baorun.handbook.t60y.data.ChildrenData
 import com.baorun.handbook.t60y.databinding.ActivitySearchBinding
@@ -12,6 +13,7 @@ import com.baorun.handbook.t60y.databinding.IncludeEmptyLayoutBinding
 import com.baorun.handbook.t60y.feature.guide.UserGuideActivity
 import com.baorun.handbook.t60y.feature.scene.SceneDetailActivity
 import com.baorun.handbook.t60y.feature.video.MediaPlayerActivity
+import com.baorun.handbook.t60y.feature.video.PlayerActivity
 import com.fondesa.recyclerviewdivider.dividerBuilder
 
 class SearchActivity : AppCompatActivity() {
@@ -33,9 +35,9 @@ class SearchActivity : AppCompatActivity() {
         viewBinding = ActivitySearchBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
         initView()
-//        lifecycleScope.launchWhenCreated {
-//            mViewModel.searchResultList.value = emptyList()
-//        }
+        lifecycleScope.launchWhenCreated {
+            mViewModel.searchResultList.value = emptyList()
+        }
     }
 
     private fun initView() {
@@ -62,7 +64,7 @@ class SearchActivity : AppCompatActivity() {
             }
 
             searchView.addTextChangedListener {
-                val key = it?.toString()?.trim()
+                val key = it?.toString()
                 if (!key.isNullOrEmpty()) {
                     closeIv.visibility = View.VISIBLE
                     mViewModel.search(key)

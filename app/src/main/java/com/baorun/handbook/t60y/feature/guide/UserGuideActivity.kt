@@ -3,6 +3,7 @@ package com.baorun.handbook.t60y.feature.guide
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -45,7 +46,7 @@ class UserGuideActivity : AppCompatActivity() {
         intent.getStringExtra(KEY_BUNDLE_PARENT) ?: ""
     }
 
-    private lateinit var curData: ChildrenData
+    private lateinit var curData:ChildrenData
     private var isCollect = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -33,7 +33,7 @@ class WarnActivity:AppCompatActivity() {
 
     private var lastPos = 0
     private var isCollect = false
-    private lateinit var curData: ChildrenData
+    private lateinit var curData:ChildrenData
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewBinding = ActivityWarnBinding.inflate(layoutInflater)

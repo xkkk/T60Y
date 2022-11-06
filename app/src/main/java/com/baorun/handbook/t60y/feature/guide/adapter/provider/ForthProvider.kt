@@ -6,6 +6,7 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
 import com.baorun.handbook.t60y.R
 import com.baorun.handbook.t60y.feature.guide.adapter.node.ForthNode
+import com.baorun.handbook.t60y.feature.guide.adapter.node.ThirdNode
 import com.chad.library.adapter.base.entity.node.BaseNode
 import com.chad.library.adapter.base.provider.BaseNodeProvider
 import com.chad.library.adapter.base.viewholder.BaseViewHolder

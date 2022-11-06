@@ -6,11 +6,13 @@ import android.view.View
 import android.widget.FrameLayout
 import androidx.annotation.DrawableRes
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.AppCompatImageView
 import androidx.lifecycle.lifecycleScope
 import com.baorun.handbook.t60y.R
 import com.baorun.handbook.t60y.data.*
 import com.baorun.handbook.t60y.databinding.ActivityIndicatorBinding
 import com.baorun.handbook.t60y.dialog.TipsDialog
+import com.baorun.handbook.t60y.ext.loadImage
 import com.baorun.handbook.t60y.radius
 import com.baorun.handbook.t60y.widget.GlideApp
 import com.bumptech.glide.load.engine.DiskCacheStrategy

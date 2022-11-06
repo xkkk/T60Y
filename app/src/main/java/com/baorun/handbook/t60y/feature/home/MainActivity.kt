@@ -47,13 +47,14 @@ class MainActivity:AppCompatActivity(),View.OnClickListener {
             loadImage(this@MainActivity,R.drawable.assets_images_home_360,home360)
            ClickUtils.applyPressedBgAlpha(tabVision,0.8f)
            ClickUtils.applyPressedBgAlpha(searchView,0.8f)
+           ClickUtils.applyPressedBgAlpha(collectView,0.8f)
         }
     }
 
     override fun onClick(v: View) {
         when(v.id){
             R.id.tabScene->goSceneActivity()
-//            R.id.tabVideo->goVideoActivity()
+            R.id.tabVideo->goVideoActivity()
             R.id.tabMine->goMineActivity()
             R.id.tabVision->goVisionActivity()
             R.id.tabQuestion->goQuestionActivity()
@@ -62,7 +63,7 @@ class MainActivity:AppCompatActivity(),View.OnClickListener {
             R.id.tabWarning->goActivity(WarnActivity::class.java)
             R.id.tabMaintenance->goActivity(MaintenanceActivity::class.java)
             R.id.searchView->goActivity(SearchActivity::class.java)
-            R.id.tabCollection->goActivity(CollectionActivity::class.java)
+            R.id.collectView->goActivity(CollectionActivity::class.java)
         }
     }
 

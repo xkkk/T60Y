@@ -14,6 +14,7 @@ import com.baorun.handbook.t60y.feature.guide.UserGuideActivity
 import com.baorun.handbook.t60y.feature.question.AnswerActivity
 import com.baorun.handbook.t60y.feature.scene.SceneDetailActivity
 import com.baorun.handbook.t60y.feature.video.MediaPlayerActivity
+import com.baorun.handbook.t60y.feature.video.PlayerActivity
 import com.baorun.handbook.t60y.feature.warn.WarnActivity
 import com.fondesa.recyclerviewdivider.dividerBuilder
 

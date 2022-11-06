@@ -9,6 +9,7 @@ import com.baorun.handbook.t60y.KEY_BUNDLE_BELONG
 import com.baorun.handbook.t60y.KEY_BUNDLE_ID
 import com.baorun.handbook.t60y.KEY_BUNDLE_PATH
 import com.baorun.handbook.t60y.KEY_BUNDLE_RES
+import com.baorun.handbook.t60y.feature.video.PlayerActivity
 import com.baorun.handbook.t60y.widget.JZMediaSystemAssertFolder
 
 /**

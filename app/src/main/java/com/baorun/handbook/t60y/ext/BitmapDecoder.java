@@ -2,7 +2,7 @@ package com.baorun.handbook.t60y.ext;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
+import android.graphics.BitmapFactory;import com.baorun.handbook.t60y.ext.SampleSizeUtil;
 
 public class BitmapDecoder {
 

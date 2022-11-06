@@ -10,10 +10,10 @@ interface DataDao {
     suspend fun insertData(list:List<ChildrenData>)
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertData(list: ChildrenData)
+    suspend fun insertData(list:ChildrenData)
 
     @Update
-    suspend fun updateData(data: ChildrenData)
+    suspend fun updateData(data:ChildrenData)
 
     @Delete
     suspend fun deleteData(data: ChildrenData)

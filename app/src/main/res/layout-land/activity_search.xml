@@ -1,109 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:focusable="true"
-    android:focusableInTouchMode="true">
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5" />
-
-    <LinearLayout
-        android:id="@+id/inputLayout"
-        android:layout_width="800.0dip"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_50"
-        android:background="@drawable/bg_search_edit"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:paddingStart="@dimen/margin_15"
-        app:layout_constrainedWidth="true"
-        app:layout_constraintEnd_toStartOf="@id/guideline"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="18.0dip"
-            android:layout_height="18.0dip"
-            android:src="@drawable/ic_search"
-            android:tint="@color/search_icon_tint" />
-
-        <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/searchView"
-            style="@style/NormalTextStyle"
-            android:layout_width="0.0dip"
-            android:layout_height="50.0dip"
-            android:layout_marginStart="10.0dip"
-            android:layout_weight="1.0"
-            android:background="@null"
-            android:gravity="start|center"
-            android:hint="搜索"
-            android:imeActionLabel="确定"
-            android:imeOptions="actionDone"
-            android:includeFontPadding="false"
-            android:singleLine="true"
-            android:textColorHint="#ff999999"
-            android:textSize="@dimen/font_16" />
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/closeIv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/margin_10"
-            android:src="@drawable/ic_baseline_close_24"
-            android:tint="#ff999999"
-            android:visibility="visible" />
+<androidx.constraintlayout.widget.ConstraintLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/inputLayout" android:background="@drawable/bg_search_edit" android:layout_width="800.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_50" android:paddingStart="@dimen/margin_15" app:layout_constrainedWidth="true" app:layout_constraintEnd_toStartOf="@id/guideline" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_search" android:tint="@color/search_icon_tint" />
+        <androidx.appcompat.widget.AppCompatEditText android:textSize="@dimen/font_16" android:textColorHint="#ff999999" android:gravity="start|center" android:id="@+id/searchView" android:background="@null" android:layout_width="0.0dip" android:layout_height="50.0dip" android:hint="搜索" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" android:imeOptions="actionDone" android:imeActionLabel="确定" android:layout_marginStart="10.0dip" style="@style/NormalTextStyle" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/closeIv" android:padding="@dimen/margin_10" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_baseline_close_24" android:tint="#ff999999" />
     </LinearLayout>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/searchResultList"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginTop="@dimen/margin_20"
-        android:layout_marginBottom="@dimen/margin_10"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constrainedHeight="true"
-        app:layout_constrainedWidth="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/inputLayout"
-        app:layout_constraintStart_toStartOf="@id/inputLayout"
-        app:layout_constraintTop_toBottomOf="@id/inputLayout"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_50"
-        android:orientation="vertical"
-        app:layout_constrainedHeight="true"
-        app:layout_constrainedWidth="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@id/guideline"
-        app:layout_constraintTop_toTopOf="@id/inputLayout">
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="500.0dip"
-            android:layout_height="50.0dip"
-            android:gravity="start|center"
-            android:includeFontPadding="false"
-            android:singleLine="true"
-            android:text="》搜索历史"
-            android:textColor="#ff999999"
-            android:textSize="26.0sp" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/historyList"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginTop="@dimen/margin_20"
-            android:layout_marginBottom="@dimen/margin_10"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/searchResultList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_20" android:layout_marginBottom="@dimen/margin_10" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constrainedHeight="true" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/inputLayout" app:layout_constraintStart_toStartOf="@id/inputLayout" app:layout_constraintTop_toBottomOf="@id/inputLayout" app:layout_constraintVertical_bias="0.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_50" app:layout_constrainedHeight="true" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/guideline" app:layout_constraintTop_toTopOf="@id/inputLayout">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="26.0sp" android:textColor="#ff999999" android:gravity="start|center" android:layout_width="500.0dip" android:layout_height="50.0dip" android:text="》搜索历史" android:singleLine="true" android:includeFontPadding="false" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/historyList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_20" android:layout_marginBottom="@dimen/margin_10" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

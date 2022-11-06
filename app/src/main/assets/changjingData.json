@@ -106,7 +106,7 @@
 							"parentId": "cj_3.1",
 							"belong": "cj_C",
 							"id": "cj_3.1.4",
-							"name": "蓝牙钥匙解锁*",
+							"name": "蓝牙钥匙解锁",
 							"htmlUrl": "/s0006.html",
 							"description": "当被动解闭锁功能开启时，携带智能蓝牙钥匙靠近车辆2m范围内，碰触门把手相应解闭锁位置，可以实现被动解闭锁功能。",
 							"children": []
@@ -153,7 +153,7 @@
 							"parentId": "cj_4.1",
 							"belong": "cj_D",
 							"id": "cj_4.1.2",
-							"name": "携带钥匙感应开启*",
+							"name": "携带钥匙触碰开启",
 							"htmlUrl": "/s0009.html",
 							"description": "当整车电源处于“OFF”挡且四门处于关闭状态，用户携带智能钥匙，进入行李箱感应开启区域，距离行李箱约0.5m时，喇叭响一声（如在音响系统显示屏中设置为“提示音开”时），同时高位制动灯开始闪烁。此时如果保持原位置不动或后退一步，行李箱盖解锁。如果在高位制动灯闪烁期间离开行李箱区域，则不会解锁行李箱盖。",
 							"children": []
@@ -199,7 +199,7 @@
 							"parentId": "cj_4.2",
 							"belong": "cj_D",
 							"id": "cj_4.2.2",
-							"name": "后排座椅靠背放倒",
+							"name": "后排座椅折叠",
 							"htmlUrl": "/s0013.html",
 							"description": "解开第三排中间座椅安全带*。下降第三排座椅头枕至最低位置。拉动拉索①解锁第三排座椅靠背，并将座椅靠背向前放倒。",
 							"children": []
@@ -621,11 +621,20 @@
 					"name": "舒适乘坐",
 					"htmlUrl": "",
 					"description": "",
-					"children": [					
+					"children": [
 						{
 							"parentId": "cj_6.7",
 							"belong": "cj_F",
 							"id": "cj_6.7.1",
+							"name": "手机无线充电",
+							"htmlUrl": "/s0046.html",
+							"description": "手机无线充电系统仅适用于通过“Qi”认证的手机，如因使用未通过“Qi”认证的手机或其它无线充电接收器造成任何事故，本公司不承担由此造成的责任和损失。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.7",
+							"belong": "cj_F",
+							"id": "cj_6.7.2",
 							"name": "空调控制",
 							"htmlUrl": "/s0047.html",
 							"description": "空调系统也可以通过上提或下按空调控制面板任意按键，切换至音响系统空调控制界面控制。",
@@ -634,7 +643,7 @@
 						{
 							"parentId": "cj_6.7",
 							"belong": "cj_F",
-							"id": "cj_6.7.2",
+							"id": "cj_6.7.3",
 							"name": "空调出风口调节",
 							"htmlUrl": "/s0048.html",
 							"description": "拨动拨舌①可调节风向。",
@@ -643,7 +652,16 @@
 						{
 							"parentId": "cj_6.7",
 							"belong": "cj_F",
-							"id": "cj_6.7.3",
+							"id": "cj_6.7.4",
+							"name": "空气净化",
+							"htmlUrl": "/s0049.html",
+							"description": "空调滤清器能过滤空调系统进气口从外界带入的花粉和灰尘。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.7",
+							"belong": "cj_F",
+							"id": "cj_6.7.5",
 							"name": "座椅加热",
 							"htmlUrl": "/s0050.html",
 							"description": "将启动开关切换到“ON”挡位。",
@@ -652,7 +670,7 @@
 						{
 							"parentId": "cj_6.7",
 							"belong": "cj_F",
-							"id": "cj_6.7.4",
+							"id": "cj_6.7.6",
 							"name": "车载电源",
 							"htmlUrl": "/s0051.html",
 							"description": "启动开关在“ACC”或“ON”挡位时，翻开前电源插座盖连接充电设备（最大功率：120W）即可使用。",
@@ -661,7 +679,7 @@
 						{
 							"parentId": "cj_6.7",
 							"belong": "cj_F",
-							"id": "cj_6.7.5",
+							"id": "cj_6.7.7",
 							"name": "USB接口",
 							"htmlUrl": "/s0052.html",
 							"description": "启动开关在“ACC”或“ON”挡位时，翻开护盖，连接移动设备即可使用。",
@@ -865,7 +883,7 @@
 							"parentId": "cj_7.4",
 							"belong": "cj_G",
 							"id": "cj_7.4.7",
-							"name": "车道偏离辅助系统*",
+							"name": "车道偏移系统*",
 							"htmlUrl": "/s0069.html",
 							"description": "车道偏移系统是为了减少由于无意识的车道偏移而导致的事故发生。",
 							"children": []
@@ -883,7 +901,7 @@
 							"parentId": "cj_7.4",
 							"belong": "cj_G",
 							"id": "cj_7.4.9",
-							"name": "座舱监控系统*",
+							"name": "智能座舱系统*",
 							"htmlUrl": "/s0071.html",
 							"description": "座舱监控系统通过安装在驾驶员左前方（A柱）和内后视镜罩盖上的两个摄像头。",
 							"children": []
@@ -937,7 +955,7 @@
 							"parentId": "cj_7.4",
 							"belong": "cj_G",
 							"id": "cj_7.4.15",
-							"name": "轮胎气压监测系统",
+							"name": "胎压监测系统（TPMS）",
 							"htmlUrl": "/s0077.html",
 							"description": "胎压监测系统监测轮胎压力和温度信息，并在组合仪表上显示当前的轮胎压力和温度信息。当轮胎出现低压、高压、快速漏气和高温异常状况时，组合仪表会显示报警信息。",
 							"children": []
@@ -1071,14 +1089,6 @@
 							"id": "cj_9.1.2",
 							"name": "关闭天窗",
 							"htmlUrl": "/s0085.html",
-							"description": "电动天窗在启动开关在“ON”挡位时可以进行操作；在启动开关从“ON” 挡位切换到“ACC”或“OFF”挡位后的40s内可以操作，如果在40s内打开车门，不可继续操作。",
-							"children": []
-						},{
-							"parentId": "cj_9.1",
-							"belong": "cj_I",
-							"id": "cj_9.1.3",
-							"name": "关闭车辆",
-							"htmlUrl": "/s0119.html",
 							"description": "电动天窗在启动开关在“ON”挡位时可以进行操作；在启动开关从“ON” 挡位切换到“ACC”或“OFF”挡位后的40s内可以操作，如果在40s内打开车门，不可继续操作。",
 							"children": []
 						}
@@ -1498,7 +1508,7 @@
 							"parentId": "cj_13.1",
 							"belong": "cj_M",
 							"id": "cj_13.1.6",
-							"name": "充气/临时修补漏气轮胎",
+							"name": "换胎操作",
 							"htmlUrl": "/s0114.html",
 							"description": "备用轮胎已经充气，应定期检查气压，保证其处于规定的最高气压，且1年内要进行多次检查。",
 							"children": []

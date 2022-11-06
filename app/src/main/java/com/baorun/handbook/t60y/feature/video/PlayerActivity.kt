@@ -1,5 +1,6 @@
 package com.baorun.handbook.t60y.feature.video
 
+import android.app.Activity
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -8,7 +9,6 @@ import android.media.AudioAttributes
 import android.media.AudioFocusRequest
 import android.media.AudioManager
 import android.os.Bundle
-import android.util.PlatformUtil
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -17,10 +17,12 @@ import cn.jzvd.JzvdStd
 import com.baorun.handbook.t60y.KEY_BUNDLE_BELONG
 import com.baorun.handbook.t60y.KEY_BUNDLE_ID
 import com.baorun.handbook.t60y.KEY_BUNDLE_PATH
+import com.baorun.handbook.t60y.KEY_BUNDLE_RES
 import com.baorun.handbook.t60y.databinding.ActivityPlayerBinding
 import com.baorun.handbook.t60y.ext.goActivity
 import com.baorun.handbook.t60y.feature.collect.CollectionViewModel
 import com.baorun.handbook.t60y.feature.search.SearchActivity
+import com.baorun.handbook.t60y.widget.JZMediaExo
 import com.baorun.handbook.t60y.widget.JZMediaSystemAssertFolder
 import com.blankj.utilcode.util.ThreadUtils
 
@@ -100,7 +102,6 @@ open abstract class  PlayerActivity : AppCompatActivity() {
             addAction(ACTION)
         }
         registerReceiver(receiver, intentFilter)
-        PlatformUtil.getInstance(this).registerScreenMuteStatusChanged {  }
     }
 
     private fun registerAudioFocus(){

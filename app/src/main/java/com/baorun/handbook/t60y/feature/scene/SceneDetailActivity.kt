@@ -93,13 +93,6 @@ class SceneDetailActivity : AppCompatActivity() {
                  */
                 val split = childrenId.split(".")
                 when (split.size) {
-                    1->{
-                        val first = it.first() as FirstNode
-                        val position = it.indexOf(first)
-                        loadWebView(first.data)
-                        first.data.checked = true
-                        lastPosition = position
-                    }
                     2 -> {
                         val second =
                             first.childNode!!.find { (it as SecondNode).data.id == childrenId } as SecondNode
