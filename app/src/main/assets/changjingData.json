@@ -1,0 +1,1557 @@
+{
+	"dataType": "场景模块",
+	"data": [
+		{
+			"parentId": "cj_A",
+			"belong": "cj_A",
+			"id": "cj_1",
+			"name": "行程准备",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_1",
+					"belong": "cj_A",
+					"id": "cj_1.1",
+					"name": "驾驶前",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_1.1",
+							"belong": "cj_A",
+							"id": "cj_1.1.1",
+							"name": "行车前检查",
+							"htmlUrl": "/s0001.html",
+							"description": "行驶前务必进行下列检查：– 确认所有车灯工作正常。– 确认燃油存量正常。– 确认冷却液液位正常。",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_B",
+			"belong": "cj_B",
+			"id": "cj_2",
+			"name": "接近",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_2",
+					"belong": "cj_B",
+					"id": "cj_2.1",
+					"name": "确认位置",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_2.1",
+							"belong": "cj_B",
+							"id": "cj_2.1.1",
+							"name": "寻车",
+							"htmlUrl": "/s0002.html",
+							"description": "0.5s内连续按遥控钥匙上的闭锁键2次，位置灯将点亮8s，并且转向信号灯闪烁3次，方便您确定车辆的具体位置",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_C",
+			"belong": "cj_C",
+			"id": "cj_3",
+			"name": "解锁",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_3",
+					"belong": "cj_C",
+					"id": "cj_3.1",
+					"name": "车辆解锁",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_3.1",
+							"belong": "cj_C",
+							"id": "cj_3.1.1",
+							"name": "智能钥匙解锁",
+							"htmlUrl": "/s0003.html",
+							"description": "在有效范围内短按该按键1次，所有车门将被解锁；按下该按键保持2s，车窗自动打开；按下该按键保持3s，天窗自动打开；车窗打开或天窗打开过程中，若松开该按键，车窗或天窗停止打开。",
+							"children": []
+						},
+						{
+							"parentId": "cj_3.1",
+							"belong": "cj_C",
+							"id": "cj_3.1.2",
+							"name": "近车自动解锁",
+							"htmlUrl": "/s0004.html",
+							"description": "智能主动解锁功能开启时，携带智能遥控钥匙离车辆1米以内，车辆自动解锁，外后视镜*自动打开。",
+							"children": []
+						},
+						{
+							"parentId": "cj_3.1",
+							"belong": "cj_C",
+							"id": "cj_3.1.3",
+							"name": "手机APP解锁*",
+							"htmlUrl": "/s0005.html",
+							"description": "车辆处于静止状态，进入APP首页，点击“车锁”按钮，进入车锁设置页面，可对车辆进行解锁。",
+							"children": []
+						},
+						{
+							"parentId": "cj_3.1",
+							"belong": "cj_C",
+							"id": "cj_3.1.4",
+							"name": "蓝牙钥匙解锁*",
+							"htmlUrl": "/s0006.html",
+							"description": "当被动解闭锁功能开启时，携带智能蓝牙钥匙靠近车辆2m范围内，碰触门把手相应解闭锁位置，可以实现被动解闭锁功能。",
+							"children": []
+						},
+						{
+							"parentId": "cj_3.1",
+							"belong": "cj_C",
+							"id": "cj_3.1.5",
+							"name": "机械钥匙应急解锁",
+							"htmlUrl": "/s0007.html",
+							"description": "按压锁止按键①，同时沿-箭头A-方向拉出应急机械钥匙。",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_D",
+			"belong": "cj_D",
+			"id": "cj_4",
+			"name": "载物",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_4",
+					"belong": "cj_D",
+					"id": "cj_4.1",
+					"name": "开启行李箱",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_4.1",
+							"belong": "cj_D",
+							"id": "cj_4.1.1",
+							"name": "智能钥匙遥控开启",
+							"htmlUrl": "/s0008.html",
+							"description": "使用遥控钥匙： 整车电源在“OFF”挡位时，在有效范围内，按下遥控钥匙的按键约2s，开启行李箱盖。",
+							"children": []
+						},
+						{
+							"parentId": "cj_4.1",
+							"belong": "cj_D",
+							"id": "cj_4.1.2",
+							"name": "携带钥匙感应开启*",
+							"htmlUrl": "/s0009.html",
+							"description": "当整车电源处于“OFF”挡且四门处于关闭状态，用户携带智能钥匙，进入行李箱感应开启区域，距离行李箱约0.5m时，喇叭响一声（如在音响系统显示屏中设置为“提示音开”时），同时高位制动灯开始闪烁。此时如果保持原位置不动或后退一步，行李箱盖解锁。如果在高位制动灯闪烁期间离开行李箱区域，则不会解锁行李箱盖。",
+							"children": []
+						},
+						{
+							"parentId": "cj_4.1",
+							"belong": "cj_D",
+							"id": "cj_4.1.3",
+							"name": "仪表台按键开启",
+							"htmlUrl": "/s0010.html",
+							"description": "仪表台按键：长按行李箱盖开启按键，开启行李箱盖。",
+							"children": []
+						},
+						{
+							"parentId": "cj_4.1",
+							"belong": "cj_D",
+							"id": "cj_4.1.4",
+							"name": "车内紧急手动开启",
+							"htmlUrl": "/s0011.html",
+							"description": "当蓄电池亏电或行李箱盖故障无法正常开启时，可尝试从车内应急开启行李箱盖：– 打开饰盖①。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_4",
+					"belong": "cj_D",
+					"id": "cj_4.2",
+					"name": "轻松载物",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_4.2",
+							"belong": "cj_D",
+							"id": "cj_4.2.1",
+							"name": "行李箱",
+							"htmlUrl": "/s0012.html",
+							"description": "为确保整车操纵稳定性，装载行李时，应尽可能均匀的放置物品，并且重物应放在行李箱前端。",
+							"children": []
+						},
+						{
+							"parentId": "cj_4.2",
+							"belong": "cj_D",
+							"id": "cj_4.2.2",
+							"name": "后排座椅靠背放倒",
+							"htmlUrl": "/s0013.html",
+							"description": "解开第三排中间座椅安全带*。下降第三排座椅头枕至最低位置。拉动拉索①解锁第三排座椅靠背，并将座椅靠背向前放倒。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_4",
+					"belong": "cj_D",
+					"id": "cj_4.3",
+					"name": "关闭行李箱",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_4.3",
+							"belong": "cj_D",
+							"id": "cj_4.3.1",
+							"name": "手动关闭行李箱",
+							"htmlUrl": "/s0014.html",
+							"description": "将行李箱盖降至接近后保险杠盖板，然后稍微用力按下关闭。",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_E",
+			"belong": "cj_E",
+			"id": "cj_5",
+			"name": "进入",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_5",
+					"belong": "cj_E",
+					"id": "cj_5.1",
+					"name": "打开车门",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_5.1",
+							"belong": "cj_E",
+							"id": "cj_5.1.1",
+							"name": "车门外拉手",
+							"htmlUrl": "/s0015.html",
+							"description": "车辆解锁后，拉动车门外把手可 直接打开车门。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_5",
+					"belong": "cj_E",
+					"id": "cj_5.2",
+					"name": "迎宾照明",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_5.2",
+							"belong": "cj_E",
+							"id": "cj_5.2.1",
+							"name": "前排照明",
+							"htmlUrl": "/s0016.html",
+							"description": "打开车门时，礼貌灯会自动点亮。关闭车门时，礼貌灯会自动熄灭。",
+							"children": []
+						},
+						{
+							"parentId": "cj_5.2",
+							"belong": "cj_E",
+							"id": "cj_5.2.2",
+							"name": "智能氛围灯",
+							"htmlUrl": "/s0017.html",
+							"description": "开启位置灯时，氛围灯会自动点亮。关闭位置灯时，氛围灯会自动熄灭。",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_F",
+			"belong": "cj_F",
+			"id": "cj_6",
+			"name": "出行乘坐",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_6",
+					"belong": "cj_F",
+					"id": "cj_6.1",
+					"name": "安全带",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_6.1",
+							"belong": "cj_F",
+							"id": "cj_6.1.1",
+							"name": "安全带的作用",
+							"htmlUrl": "/s0018.html",
+							"description": "车辆发生碰撞时，正确佩戴安全带可以将驾乘人员约束在合适的位置，减缓驾乘人员向前运动的惯性，防止驾乘人员被向前抛出，同时使驾乘人员得到安全气囊的最佳保护，尽可能降低其所受到的冲击伤害。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.1",
+							"belong": "cj_F",
+							"id": "cj_6.1.2",
+							"name": "正确的坐姿",
+							"htmlUrl": "/s0019.html",
+							"description": "驾驶员坐姿是否正确直接影响到驾驶员的疲劳程度与行驶安全性。行驶前，驾驶员应进行以下操作",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.1",
+							"belong": "cj_F",
+							"id": "cj_6.1.3",
+							"name": "正确使用安全带",
+							"htmlUrl": "/s0020.html",
+							"description": "保持正确坐姿。缓慢匀速拉出安全带，将锁舌插入对应的锁扣内，直到听到扣合声。拉动安全带，确认锁舌已正确扣合。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.1",
+							"belong": "cj_F",
+							"id": "cj_6.1.4",
+							"name": "孕妇如何使用安全带",
+							"htmlUrl": "/s0021.html",
+							"description": "孕妇如何正确佩戴安全带。调整座椅及头枕至合适位置。握紧锁舌，将安全带慢慢拉过肩部，并保证安全带的腰带部分尽可能低，切忌压于腹部。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.1",
+							"belong": "cj_F",
+							"id": "cj_6.1.5",
+							"name": "安全带未系报警",
+							"htmlUrl": "/s0022.html",
+							"description": "当车速＜20km/h时，如果驾驶员或前排乘员未佩戴安全带，组合仪表中对应的提示灯将闪烁约6s后保持常亮，并伴有报警信息。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_6",
+					"belong": "cj_F",
+					"id": "cj_6.2",
+					"name": "安全气囊",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_6.2",
+							"belong": "cj_F",
+							"id": "cj_6.2.1",
+							"name": "安全气囊的保护作用",
+							"htmlUrl": "/s0023.html",
+							"description": "根据不同配置，安全气囊系统有以下膨胀示意位置",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.2",
+							"belong": "cj_F",
+							"id": "cj_6.2.2",
+							"name": "安全气囊的位置",
+							"htmlUrl": "/s0024.html",
+							"description": "驾驶员正面安全气囊安装在方向盘内部（阴影部分），“SRS AIRBAG”为安全气囊标志。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.2",
+							"belong": "cj_F",
+							"id": "cj_6.2.3",
+							"name": "安全气囊的展开",
+							"htmlUrl": "/s0025.html",
+							"description": "安全气囊可能会展开的情况",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.2",
+							"belong": "cj_F",
+							"id": "cj_6.2.4",
+							"name": "安全气囊警告灯",
+							"htmlUrl": "/s0026.html",
+							"description": "启动开关切换至“ON”挡位后，指示灯不点亮。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_6",
+					"belong": "cj_F",
+					"id": "cj_6.3",
+					"name": "儿童安全",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_6.3",
+							"belong": "cj_F",
+							"id": "cj_6.3.1",
+							"name": "儿童乘车须知",
+							"htmlUrl": "/s0027.html",
+							"description": "必须将儿童安置在后排座椅上，并根据儿童的大小选择合适的儿童安全座椅保护儿童。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.3",
+							"belong": "cj_F",
+							"id": "cj_6.3.2",
+							"name": "儿童锁",
+							"htmlUrl": "/s0028.html",
+							"description": "儿童安全锁开启时，车内拉手无法开启后车门，此时应从车外开启后车门；切勿过于用力拉动车内拉手，以免损坏。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.3",
+							"belong": "cj_F",
+							"id": "cj_6.3.3",
+							"name": "儿童安全座椅",
+							"htmlUrl": "",
+							"description": "",
+							"children": [
+								{
+									"parentId": "cj_6.3.3",
+									"belong": "cj_F",
+									"id": "cj_6.3.3.1",
+									"name": "儿童座椅分类",
+									"htmlUrl": "/s0029.html",
+									"description": "儿童安全座椅分类等级(仅供参考)",
+									"children": []
+								},
+								{
+									"parentId": "cj_6.3.3",
+									"belong": "cj_F",
+									"id": "cj_6.3.3.2",
+									"name": "儿童座椅安装",
+									"htmlUrl": "/s0030.html",
+									"description": "儿童安全座椅有三种类型的固定安装，分别为三点式安全带固定、ISOFIX系统固定、LATCH系统固定。",
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"parentId": "cj_6",
+					"belong": "cj_F",
+					"id": "cj_6.4",
+					"name": "主驾驶侧乘坐",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_6.4",
+							"belong": "cj_F",
+							"id": "cj_6.4.1",
+							"name": "前排储物",
+							"htmlUrl": "/s0031.html",
+							"description": "可放置饮料瓶、地图手册等物品。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.4",
+							"belong": "cj_F",
+							"id": "cj_6.4.2",
+							"name": "主驾驶座椅调节",
+							"htmlUrl": "/s0032.html",
+							"description": "测量座垫深时，座椅前后位置应调节至滑轨中部，座椅靠背调节至正常使用状态（25°）。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.4",
+							"belong": "cj_F",
+							"id": "cj_6.4.3",
+							"name": "外后视镜调节",
+							"htmlUrl": "/s0033.html",
+							"description": "曲面（凸面及球面）后视镜虽能扩大视野，但反射的物像与实物相比要小且远，故变换车道时切勿以其反映的物像判断后方车辆的距离，否则可能因错误判断发生事故。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.4",
+							"belong": "cj_F",
+							"id": "cj_6.4.4",
+							"name": "内后视镜调节",
+							"htmlUrl": "/s0034.html",
+							"description": "自动防眩目内后视镜根据光线传感器监测车辆前后的光线，减弱从后方射到镜面后反射的强光，使后方视野处于最佳观测状态。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.4",
+							"belong": "cj_F",
+							"id": "cj_6.4.5",
+							"name": "车窗控制",
+							"htmlUrl": "/s0035.html",
+							"description": "电动车窗在启动开关在“ON”挡位时可以进行操作；在启动开关从“ON”挡位切换到 “ACC” 或“OFF”挡位后的40s内可以操作，如果在40s内打开车门，不可继续操作。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.4",
+							"belong": "cj_F",
+							"id": "cj_6.4.6",
+							"name": "方向盘调节",
+							"htmlUrl": "/s0036.html",
+							"description": "将驾驶员座椅调整至合适位置，确保方向盘和胸部之间的距离不小于25cm。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.4",
+							"belong": "cj_F",
+							"id": "cj_6.4.7",
+							"name": "方向盘控制",
+							"htmlUrl": "/s0037.html",
+							"description": "– 组合仪表显示屏控制按键：- 行车信息操作- 菜单设置操作- 报警信息操作",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.4",
+							"belong": "cj_F",
+							"id": "cj_6.4.8",
+							"name": "遮阳板",
+							"htmlUrl": "/s0038.html",
+							"description": "沿-箭头A-方向下翻驾驶员侧或前排乘员侧的遮阳板，可遮挡从前风窗射入的阳光。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.4",
+							"belong": "cj_F",
+							"id": "cj_6.4.9",
+							"name": "车内锁止",
+							"htmlUrl": "/s0039.html",
+							"description": "车门正确关闭状态下，开启该功能并达到一定车速，车辆将自动上锁。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_6",
+					"belong": "cj_F",
+					"id": "cj_6.5",
+					"name": "副驾驶侧乘坐",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_6.5",
+							"belong": "cj_F",
+							"id": "cj_6.5.1",
+							"name": "副驾驶座椅调节",
+							"htmlUrl": "/s0040.html",
+							"description": "沿-箭头①-或-箭头②-方向推动开关，可调节座椅向前或向后滑动。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.5",
+							"belong": "cj_F",
+							"id": "cj_6.5.2",
+							"name": "车窗控制",
+							"htmlUrl": "/s0041.html",
+							"description": "乘员侧电动车窗按键①的使用方法参考驾驶员侧电动车窗按。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_6",
+					"belong": "cj_F",
+					"id": "cj_6.6",
+					"name": "后排座椅乘坐",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_6.6",
+							"belong": "cj_F",
+							"id": "cj_6.6.1",
+							"name": "后排座椅调节",
+							"htmlUrl": "/s0042.html",
+							"description": "沿-箭头①-方向拉起调整杆，向前或向后滑动座椅。松开调整杆后，略微前后滑动座椅直至座椅锁止牢固。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.6",
+							"belong": "cj_F",
+							"id": "cj_6.6.2",
+							"name": "车窗控制",
+							"htmlUrl": "/s0043.html",
+							"description": "乘员侧电动车窗按键①的使用方法参考驾驶员侧电动车窗按键。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.6",
+							"belong": "cj_F",
+							"id": "cj_6.6.3",
+							"name": "后排储物",
+							"htmlUrl": "/s0044.html",
+							"description": "可放置饮料瓶、地图手册等物品。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.6",
+							"belong": "cj_F",
+							"id": "cj_6.6.4",
+							"name": "后排照明",
+							"htmlUrl": "/s0045.html",
+							"description": "第二排车顶照明灯熄灭时，按一下开关①，对应侧的照明灯点亮；再按开关①，对应侧的照明灯熄灭。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_6",
+					"belong": "cj_F",
+					"id": "cj_6.7",
+					"name": "舒适乘坐",
+					"htmlUrl": "",
+					"description": "",
+					"children": [					
+						{
+							"parentId": "cj_6.7",
+							"belong": "cj_F",
+							"id": "cj_6.7.1",
+							"name": "空调控制",
+							"htmlUrl": "/s0047.html",
+							"description": "空调系统也可以通过上提或下按空调控制面板任意按键，切换至音响系统空调控制界面控制。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.7",
+							"belong": "cj_F",
+							"id": "cj_6.7.2",
+							"name": "空调出风口调节",
+							"htmlUrl": "/s0048.html",
+							"description": "拨动拨舌①可调节风向。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.7",
+							"belong": "cj_F",
+							"id": "cj_6.7.3",
+							"name": "座椅加热",
+							"htmlUrl": "/s0050.html",
+							"description": "将启动开关切换到“ON”挡位。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.7",
+							"belong": "cj_F",
+							"id": "cj_6.7.4",
+							"name": "车载电源",
+							"htmlUrl": "/s0051.html",
+							"description": "启动开关在“ACC”或“ON”挡位时，翻开前电源插座盖连接充电设备（最大功率：120W）即可使用。",
+							"children": []
+						},
+						{
+							"parentId": "cj_6.7",
+							"belong": "cj_F",
+							"id": "cj_6.7.5",
+							"name": "USB接口",
+							"htmlUrl": "/s0052.html",
+							"description": "启动开关在“ACC”或“ON”挡位时，翻开护盖，连接移动设备即可使用。",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_G",
+			"belong": "cj_G",
+			"id": "cj_7",
+			"name": "驾驶",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_7",
+					"belong": "cj_G",
+					"id": "cj_7.1",
+					"name": "查看仪表",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_7.1",
+							"belong": "cj_G",
+							"id": "cj_7.1.1",
+							"name": "仪表视图",
+							"htmlUrl": "/s0053.html",
+							"description": "发动机转速表用于指示发动机当前转速，单位为x1000r/min，指示范围0～8000r/min。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.1",
+							"belong": "cj_G",
+							"id": "cj_7.1.2",
+							"name": "仪表指示灯/报警灯",
+							"htmlUrl": "/s0054.html",
+							"description": "若车辆启动后或行车中组合仪表出现指示灯、报警灯提示，表明相关系统或功能正处于某个工作状态或出现故障。您应详细阅读并了解每个指示灯、报警灯的含义，出现故障时请及时前往或联系广汽传祺特约店，对车辆进行检修。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_7",
+					"belong": "cj_G",
+					"id": "cj_7.2",
+					"name": "驶出车位",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_7.2",
+							"belong": "cj_G",
+							"id": "cj_7.2.1",
+							"name": "车辆启动",
+							"htmlUrl": "/s0055.html",
+							"description": "若发动机是冷态启动，需怠速运转让其预热后再行车。同时，因为气门挺杆需数秒钟方能达到正常工作压力，会产生运转噪音，属正常现象。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.2",
+							"belong": "cj_G",
+							"id": "cj_7.2.2",
+							"name": "驾驶模式切换",
+							"htmlUrl": "/s0056.html",
+							"description": "换挡系统有COMFORT(正常)，ECO(经济)，SPORT(运动)，MANUA(手动)四种驾驶模式，其中D/E/S可通过驾驶模式拨杆操作切换 ，“MANUAL”模式需要在“SPORT”模式下触发，触发后手动操作换挡手柄上的M+/-按钮可实现手动升降挡。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.2",
+							"belong": "cj_G",
+							"id": "cj_7.2.3",
+							"name": "换挡",
+							"htmlUrl": "/s0057.html",
+							"description": "换挡杆挡位有“P、R、N、D”，启动开关在“ON”挡位时，挂入挡位后，组合仪表显示相应的挡位信息。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_7",
+					"belong": "cj_G",
+					"id": "cj_7.3",
+					"name": "车速控制",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_7.3",
+							"belong": "cj_G",
+							"id": "cj_7.3.1",
+							"name": "行车制动",
+							"htmlUrl": "/s0058.html",
+							"description": "在某些驾驶工况和天气条件下，第一次踩下或轻踩制动踏板时，可能会听见制动器发出吱吱声、尖叫声或其它噪声，或在轻微、中等强度制动过程中偶然听见制动噪声，尤其是新车（制动器未磨合），这是正常现象，并不代表制动系统有故障及影响制动安全和性能。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.3",
+							"belong": "cj_G",
+							"id": "cj_7.3.2",
+							"name": "电子驻车制动系统（EPB）",
+							"htmlUrl": "/s0059.html",
+							"description": "驾驶员通过操作电子驻车制动系统按键，实现施加或解除驻车制动。在坡道时，可采用辅助起步功能，驻车情况下踩下油门踏板后，电子驻车会自动释放，为驾驶员提供便利的驾驶辅助。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.3",
+							"belong": "cj_G",
+							"id": "cj_7.3.3",
+							"name": "防抱死制动系统（ABS）",
+							"htmlUrl": "/s0060.html",
+							"description": "防抱死制动系统（ABS）是ESP的子系统。当驾驶员制动时，ABS自动监控各前后轮的滑移率，在车轮抱死前，通过保压、减压、增压等阶段，调节轮缸液压，使车轮滑移率处于规定的范围，防止车轮抱死。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.3",
+							"belong": "cj_G",
+							"id": "cj_7.3.4",
+							"name": "车身电子稳定系统（ESP）",
+							"htmlUrl": "/s0061.html",
+							"description": "车身电子稳定系统（ESP），可有效降低车辆侧滑的危险。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.3",
+							"belong": "cj_G",
+							"id": "cj_7.3.5",
+							"name": "上坡辅助控制系统（HHC）",
+							"htmlUrl": "/s0062.html",
+							"description": "上坡辅助控制系统（HHC）可让车辆在不使用驻车制动的情况下，在坡道上起步时，以防止溜车而造成事故。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_7",
+					"belong": "cj_G",
+					"id": "cj_7.4",
+					"name": "智能驾驶",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.1",
+							"name": "定速巡航控制系统*",
+							"htmlUrl": "/s0063.html",
+							"description": "定速巡航控制系统可在40~120km/h车速设定，设定存储车速后，驾驶员不需踩油门踏板，车辆将以设定的车速行驶。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.2",
+							"name": "自适应巡航控制系统*",
+							"htmlUrl": "/s0064.html",
+							"description": "自适应巡航控制系统简称为ACC，可以在定速巡航时自动调节与前车的距离，可应用巡航车速0~130km/h。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.3",
+							"name": "集成式巡航辅助系统*",
+							"htmlUrl": "/s0065.html",
+							"description": "集成式巡航辅助系统简称ICA，可以在巡航时自动调节与前方车辆间的距离，并将车辆保持在车道中间行驶，可应用巡航车速0~120km/h。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.4",
+							"name": "前碰缓解系统*",
+							"htmlUrl": "/s0066.html",
+							"description": "前碰缓解系统根据安装在车辆前部的毫米波雷达和前风窗玻璃上的智能前向摄像头。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.5",
+							"name": "限速标志识别*",
+							"htmlUrl": "/s0067.html",
+							"description": "主动制动辅助系统（AEB）根据安装在车辆前部的毫米波雷达和风窗玻璃上的智能前向摄像头。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.6",
+							"name": "智能限速控制*",
+							"htmlUrl": "/s0068.html",
+							"description": "行人探测系统根据安装在前保险杠上的毫米波雷达和风窗玻璃上的智能前向摄像头探测前方的行人。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.7",
+							"name": "车道偏离辅助系统*",
+							"htmlUrl": "/s0069.html",
+							"description": "车道偏移系统是为了减少由于无意识的车道偏移而导致的事故发生。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.8",
+							"name": "智能远光灯*",
+							"htmlUrl": "/s0070.html",
+							"description": "智能远光灯系统通过风窗玻璃上的智能前向摄像头传感器。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.9",
+							"name": "座舱监控系统*",
+							"htmlUrl": "/s0071.html",
+							"description": "座舱监控系统通过安装在驾驶员左前方（A柱）和内后视镜罩盖上的两个摄像头。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.10",
+							"name": "盲区监测系统*",
+							"htmlUrl": "/s0072.html",
+							"description": "盲区监测系统通过安装在车辆后部的毫米波雷达，对视野盲区和盲区后方区域的车辆进行探测。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.11",
+							"name": "后方车辆穿行警告系统*",
+							"htmlUrl": "/s0073.html",
+							"description": "后方车辆穿行警告功能通过安装在车辆后部的盲区雷达。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.12",
+							"name": "开门预警系统*",
+							"htmlUrl": "/s0074.html",
+							"description": "开门预警功能通过安装在车辆后部的盲区雷达。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.13",
+							"name": "后车迫近辅助系统*",
+							"htmlUrl": "/s0075.html",
+							"description": "后车迫近辅助功能通过安装在车辆后部的盲区雷达实时监测车辆正后方目标。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.14",
+							"name": "雷达和摄像头传感器*",
+							"htmlUrl": "/s0076.html",
+							"description": "毫米波雷达传感器安装在前保险杠下格栅中部。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.15",
+							"name": "轮胎气压监测系统",
+							"htmlUrl": "/s0077.html",
+							"description": "胎压监测系统监测轮胎压力和温度信息，并在组合仪表上显示当前的轮胎压力和温度信息。当轮胎出现低压、高压、快速漏气和高温异常状况时，组合仪表会显示报警信息。",
+							"children": []
+						},
+						{
+							"parentId": "cj_7.4",
+							"belong": "cj_G",
+							"id": "cj_7.4.16",
+							"name": "ETC车载单元",
+							"htmlUrl": "/s0078.html",
+							"description": "ETC与路侧单元（RSU）进行双向通信，实现不停车收费功能。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_7",
+					"belong": "cj_G",
+					"id": "cj_7.5",
+					"name": "夜间行驶",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_7.5",
+							"belong": "cj_G",
+							"id": "cj_7.5.1",
+							"name": "车外照明灯",
+							"htmlUrl": "/s0079.html",
+							"description": "在某些使用条件下（如空气湿度大或洗车等，但不限于以上条件），灯具内表面可能会出现水汽甚至水珠，与雨中行驶时车窗上的起雾现象相似，这不是故障。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_7",
+					"belong": "cj_G",
+					"id": "cj_7.6",
+					"name": "雨天行驶",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_7.6",
+							"belong": "cj_G",
+							"id": "cj_7.6.1",
+							"name": "刮水器组合开关",
+							"htmlUrl": "/s0080.html",
+							"description": "启动开关在“ON”挡时，可操作刮水器组合开关",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_H",
+			"belong": "cj_H",
+			"id": "cj_8",
+			"name": "泊车",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_8",
+					"belong": "cj_H",
+					"id": "cj_8.1",
+					"name": "泊车辅助",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_8.1",
+							"belong": "cj_H",
+							"id": "cj_8.1.1",
+							"name": "倒车雷达系统",
+							"htmlUrl": "/s0081.html",
+							"description": "倒车雷达系统借助后保险杠的4个超声波传感器发送和接收遇障碍物反射回来的超声波测算车辆与障碍物的距离。",
+							"children": []
+						},
+						{
+							"parentId": "cj_8.1",
+							"belong": "cj_H",
+							"id": "cj_8.1.2",
+							"name": "倒车后视",
+							"htmlUrl": "/s0082.html",
+							"description": "倒车后视系统能够提供130°宽角度视频照射，可在音响系统显示屏上显示出大范围的车后视频影像，让驾驶员能够掌握车辆后方的各种复杂路况，提高倒车安全性。",
+							"children": []
+						},
+						{
+							"parentId": "cj_8.1",
+							"belong": "cj_H",
+							"id": "cj_8.1.3",
+							"name": "全景泊车系统",
+							"htmlUrl": "/s0083.html",
+							"description": "全景泊车系统通过采集车辆前、后、左、右四个方向的图像，并将其拼接为车辆周围360°环境鸟瞰图，通过音响系统显示屏显示，为驾驶员提供车辆周边环境信息，减少行车盲区。还可结合方向盘转角和车辆尺寸等参数预测车辆运动轨迹，将其叠加于全景影像中，让驾驶员充分了解车辆行进方向，判断倒车是否安全。",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_I",
+			"belong": "cj_I",
+			"id": "cj_9",
+			"name": "下车",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_9",
+					"belong": "cj_I",
+					"id": "cj_9.1",
+					"name": "下车准备",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_9.1",
+							"belong": "cj_I",
+							"id": "cj_9.1.1",
+							"name": "关闭车窗",
+							"htmlUrl": "/s0084.html",
+							"description": "电动车窗在启动开关在“ON”挡位时可以进行操作；在启动开关从“ON”挡位切换到 “ACC” 或“OFF”挡位后的40s内可以操作，如果在40s内打开车门，不可继续操作。",
+							"children": []
+						},
+						{
+							"parentId": "cj_9.1",
+							"belong": "cj_I",
+							"id": "cj_9.1.2",
+							"name": "关闭天窗",
+							"htmlUrl": "/s0085.html",
+							"description": "电动天窗在启动开关在“ON”挡位时可以进行操作；在启动开关从“ON” 挡位切换到“ACC”或“OFF”挡位后的40s内可以操作，如果在40s内打开车门，不可继续操作。",
+							"children": []
+						},{
+							"parentId": "cj_9.1",
+							"belong": "cj_I",
+							"id": "cj_9.1.3",
+							"name": "关闭车辆",
+							"htmlUrl": "/s0119.html",
+							"description": "电动天窗在启动开关在“ON”挡位时可以进行操作；在启动开关从“ON” 挡位切换到“ACC”或“OFF”挡位后的40s内可以操作，如果在40s内打开车门，不可继续操作。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_9",
+					"belong": "cj_I",
+					"id": "cj_9.2",
+					"name": "车内解锁",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_9.2",
+							"belong": "cj_I",
+							"id": "cj_9.2.1",
+							"name": "中控开关解锁",
+							"htmlUrl": "/s0086.html",
+							"description": "闭锁车门：按压中央门锁按键①端，所有车门上锁。",
+							"children": []
+						},
+						{
+							"parentId": "cj_9.2",
+							"belong": "cj_I",
+							"id": "cj_9.2.2",
+							"name": "自动解锁",
+							"htmlUrl": "/s0087.html",
+							"description": "行驶停车后，车门在闭锁状态，启动开关切换到“OFF”挡位时，四门会自动解锁。",
+							"children": []
+						},
+						{
+							"parentId": "cj_9.2",
+							"belong": "cj_I",
+							"id": "cj_9.2.3",
+							"name": "车门内拉手",
+							"htmlUrl": "/s0088.html",
+							"description": "若车辆处于闭锁状态，拉动任意一车门内拉手①一次，仅解锁该车门；再次拉动该车门内拉手①，打开该车门。",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_J",
+			"belong": "cj_J",
+			"id": "cj_10",
+			"name": "锁车",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_10",
+					"belong": "cj_J",
+					"id": "cj_10.1",
+					"name": "车外上锁",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_10.1",
+							"belong": "cj_J",
+							"id": "cj_10.1.1",
+							"name": "智能钥匙按键锁止",
+							"htmlUrl": "/s0089.html",
+							"description": "在有效范围内短按该按键1次，所有车门将被闭锁；按下该按键保持2s，驾驶员侧车窗自动关闭；按下该按键保持3s，天窗自动关闭；车窗或天窗自动关闭过程中，若松开该按键，车窗或天窗将停止关闭。",
+							"children": []
+						},
+						{
+							"parentId": "cj_10.1",
+							"belong": "cj_J",
+							"id": "cj_10.1.2",
+							"name": "智能主动锁止",
+							"htmlUrl": "/s0090.html",
+							"description": "智能主动解锁功能开启时，携带智能遥控钥匙走近距离车辆1m范围内，车辆自动解锁。",
+							"children": []
+						},
+						{
+							"parentId": "cj_10.1",
+							"belong": "cj_J",
+							"id": "cj_10.1.3",
+							"name": "应急上锁",
+							"htmlUrl": "/s0091.html",
+							"description": "取出机械钥匙。将机械钥匙插入驾驶员侧车门锁孔。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_10",
+					"belong": "cj_J",
+					"id": "cj_10.2",
+					"name": "防盗报警系统",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_10.2",
+							"belong": "cj_J",
+							"id": "cj_10.2.1",
+							"name": "车身防盗",
+							"htmlUrl": "/s0092.html",
+							"description": "启动开关在“OFF”挡位，车辆在设防状态下，携带智能遥控钥匙走近车门，将手伸入前车门把手内侧解锁区域有效感应后*或遥控解锁，车门解锁并解除防盗，转向信号灯闪烁2次。",
+							"children": []
+						},
+						{
+							"parentId": "cj_10.2",
+							"belong": "cj_J",
+							"id": "cj_10.2.2",
+							"name": "发动机防盗",
+							"htmlUrl": "/s0093.html",
+							"description": "当启动开关在“OFF”挡位时，已解除车身防盗系统且合法钥匙在车内，将启动开关切换到“ON”挡位，若发动机防盗系统通过验证，系统解除发动机防盗。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_10",
+					"belong": "cj_J",
+					"id": "cj_10.3",
+					"name": "外后视镜折叠",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_10.3",
+							"belong": "cj_J",
+							"id": "cj_10.3.1",
+							"name": "外后视镜电动折叠",
+							"htmlUrl": "/s0094.html",
+							"description": "按一下折叠按键①，外后视镜电动折叠。",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_K",
+			"belong": "cj_K",
+			"id": "cj_11",
+			"name": "离车",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_11",
+					"belong": "cj_K",
+					"id": "cj_11.1",
+					"name": "伴我回家",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_11.1",
+							"belong": "cj_K",
+							"id": "cj_11.1.1",
+							"name": "伴我回家",
+							"htmlUrl": "/s0095.html",
+							"description": "整车电源切换到“OFF”挡位后的10min内，如果在2s内将车灯开关从OFF位置旋转至其它位置再旋回到OFF位置，前大灯延时关闭功能激活。近光灯将点亮30s，如果这30s内有任意车门（包括四个车门、前机舱盖和行李箱盖）被打开，将重新定时，近光灯点亮80s，如果这80s内车门都被关闭，将又重新定时，近光灯点亮30s，以此重复。",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_L",
+			"belong": "cj_L",
+			"id": "cj_12",
+			"name": "保养清洁",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_12",
+					"belong": "cj_L",
+					"id": "cj_12.1",
+					"name": "车辆清洁",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_12.1",
+							"belong": "cj_L",
+							"id": "cj_12.1.1",
+							"name": "外部清洁",
+							"htmlUrl": "/s0096.html",
+							"description": "经常洗车，有助于保护车辆的外观。",
+							"children": []
+						},
+						{
+							"parentId": "cj_12.1",
+							"belong": "cj_L",
+							"id": "cj_12.1.2",
+							"name": "内部清洁",
+							"htmlUrl": "/s0097.html",
+							"description": "定期打蜡能够保护车身漆面，保持车身光洁。为了有效保护车身漆面，建议每年上一次优质硬蜡，以保护漆面不受外界不良环境的侵蚀，并能抵御轻度机械刮擦。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_12",
+					"belong": "cj_L",
+					"id": "cj_12.2",
+					"name": "油液添加",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_12.2",
+							"belong": "cj_L",
+							"id": "cj_12.2.1",
+							"name": "前舱盖开启和关闭",
+							"htmlUrl": "/s0098.html",
+							"description": "拉前机舱盖开启拉手①，前机舱盖将解锁并轻微弹起。",
+							"children": []
+						},
+						{
+							"parentId": "cj_12.2",
+							"belong": "cj_L",
+							"id": "cj_12.2.2",
+							"name": "添加风窗洗涤液",
+							"htmlUrl": "/s0099.html",
+							"description": "若发现洗涤液液位过低时，应及时向储液罐中添加洗涤液。",
+							"children": []
+						},
+						{
+							"parentId": "cj_12.2",
+							"belong": "cj_L",
+							"id": "cj_12.2.3",
+							"name": "添加冷却液",
+							"htmlUrl": "/s0100.html",
+							"description": "冷却液具有冷却、防冻、防腐蚀等作用。",
+							"children": []
+						},
+						{
+							"parentId": "cj_12.2",
+							"belong": "cj_L",
+							"id": "cj_12.2.4",
+							"name": "添加制动液",
+							"htmlUrl": "/s0101.html",
+							"description": "制动液用于车辆液压制动系统中传递动力。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_12",
+					"belong": "cj_L",
+					"id": "cj_12.3",
+					"name": "雨刮片更换",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_12.3",
+							"belong": "cj_L",
+							"id": "cj_12.3.1",
+							"name": "雨刮片更换",
+							"htmlUrl": "/s0102.html",
+							"description": "将启动开关切换到“ON”挡位，再切换到“OFF”挡位。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_12",
+					"belong": "cj_L",
+					"id": "cj_12.4",
+					"name": "空调保养",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_12.4",
+							"belong": "cj_L",
+							"id": "cj_12.4.1",
+							"name": "空调滤清器",
+							"htmlUrl": "/s0103.html",
+							"description": "根据《保修手册》中的规定定期检查或清洁空调滤清器。如果车辆在满是灰尘的环境中行驶，导致空调滤清器过脏，建议更早更换空调滤清器。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_12",
+					"belong": "cj_L",
+					"id": "cj_12.5",
+					"name": "保险丝更换",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_12.5",
+							"belong": "cj_L",
+							"id": "cj_12.5.1",
+							"name": "保险丝说明",
+							"htmlUrl": "/s0104.html",
+							"description": "沿-箭头-方向打开驾驶室下护板储物格并抽出，可见仪表板电器盒上面的保险丝。",
+							"children": []
+						},
+						{
+							"parentId": "cj_12.5",
+							"belong": "cj_L",
+							"id": "cj_12.5.2",
+							"name": "前舱保险丝盒",
+							"htmlUrl": "/s0105.html",
+							"description": "图片并不保证适用于所有车型，如需了解保险丝的用途，请到实车上查看。不同的车型，保险丝会略有不同。",
+							"children": []
+						},
+						{
+							"parentId": "cj_12.5",
+							"belong": "cj_L",
+							"id": "cj_12.5.3",
+							"name": "仪表台保险丝盒",
+							"htmlUrl": "/s0106.html",
+							"description": "图片并不保证适用于每种车型，如需了解保险丝的用途，请您到实车上查看。不同的车型，保险丝会略有不同。",
+							"children": []
+						},
+						{
+							"parentId": "cj_12.5",
+							"belong": "cj_L",
+							"id": "cj_12.5.4",
+							"name": "蓄电池电器盒",
+							"htmlUrl": "/s0107.html",
+							"description": "图片并不保证适用于每种车型，如需了解保险丝的用途，请您到实车上查看。不同的车型，保险丝会略有不同。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_12",
+					"belong": "cj_L",
+					"id": "cj_12.6",
+					"name": "电池保养",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_12.6",
+							"belong": "cj_L",
+							"id": "cj_12.6.1",
+							"name": "蓄电池保养",
+							"htmlUrl": "/s0108.html",
+							"description": "若不熟悉操作流程或无专用工具，切不可对车辆电器系统进行任何作业，应由广汽传祺特约店实施相关作业。",
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"parentId": "cj_M",
+			"belong": "cj_M",
+			"id": "cj_13",
+			"name": "应急救援",
+			"htmlUrl": "",
+			"description": "",
+			"children": [
+				{
+					"parentId": "cj_13",
+					"belong": "cj_M",
+					"id": "cj_13.1",
+					"name": "车主应急",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_13.1",
+							"belong": "cj_M",
+							"id": "cj_13.1.1",
+							"name": "应急解锁/锁止",
+							"htmlUrl": "/s0109.html",
+							"description": "当通过智能钥匙无法解锁/锁止车门时，可使用机械钥匙解锁/锁止车门。",
+							"children": []
+						},
+						{
+							"parentId": "cj_13.1",
+							"belong": "cj_M",
+							"id": "cj_13.1.2",
+							"name": "开启危险警告灯",
+							"htmlUrl": "/s0110.html",
+							"description": "遇下列情况时应打开危险警告灯，引起道路上其他人员的注意，降低交通事故风险。",
+							"children": []
+						},
+						{
+							"parentId": "cj_13.1",
+							"belong": "cj_M",
+							"id": "cj_13.1.3",
+							"name": "穿戴反光背心",
+							"htmlUrl": "/s0111.html",
+							"description": "若车辆出现事故或其它故障需要停车时，应从手套箱内取出反光背心，并穿戴整齐后再下车检查处理车辆故障。",
+							"children": []
+						},
+						{
+							"parentId": "cj_13.1",
+							"belong": "cj_M",
+							"id": "cj_13.1.4",
+							"name": "设置三角警告牌",
+							"htmlUrl": "/s0112.html",
+							"description": "打开行李箱盖，取出三角警告牌并展开使用。",
+							"children": []
+						},
+						{
+							"parentId": "cj_13.1",
+							"belong": "cj_M",
+							"id": "cj_13.1.5",
+							"name": "认识随车工具",
+							"htmlUrl": "/s0113.html",
+							"description": "本车提供下列随车工具放置在行李箱内，使用完后应及时清洁，并放回原位置。",
+							"children": []
+						},
+						{
+							"parentId": "cj_13.1",
+							"belong": "cj_M",
+							"id": "cj_13.1.6",
+							"name": "充气/临时修补漏气轮胎",
+							"htmlUrl": "/s0114.html",
+							"description": "备用轮胎已经充气，应定期检查气压，保证其处于规定的最高气压，且1年内要进行多次检查。",
+							"children": []
+						},
+						{
+							"parentId": "cj_13.1",
+							"belong": "cj_M",
+							"id": "cj_13.1.7",
+							"name": "跨接启动",
+							"htmlUrl": "/s0115.html",
+							"description": "若因蓄电池电量过低无法启动发动机，可通过跨接电缆连接另一辆汽车的蓄电池启动发动机。",
+							"children": []
+						}
+					]
+				},
+				{
+					"parentId": "cj_13",
+					"belong": "cj_M",
+					"id": "cj_13.2",
+					"name": "道路救援",
+					"htmlUrl": "",
+					"description": "",
+					"children": [
+						{
+							"parentId": "cj_13.2",
+							"belong": "cj_M",
+							"id": "cj_13.2.1",
+							"name": "呼叫救援",
+							"htmlUrl": "/s0116.html",
+							"description": "紧急救援功能有碰撞自动求助、道路救援、手动紧急求助。自动求助是在某些情况下广汽传祺车联网会自动开启的功能，而道路救援和手动紧急求助则需要通过手动按紧急联系按键开启的功能。",
+							"children": []
+						},
+						{
+							"parentId": "cj_13.2",
+							"belong": "cj_M",
+							"id": "cj_13.2.2",
+							"name": "车辆脱离陷坑",
+							"htmlUrl": "/s0117.html",
+							"description": "如果车辆被陷在沙地、泥地或雪地等松软路面时，可按下列步骤进行操作以脱离陷坑。",
+							"children": []
+						},
+						{
+							"parentId": "cj_13.2",
+							"belong": "cj_M",
+							"id": "cj_13.2.3",
+							"name": "车辆牵引",
+							"htmlUrl": "/s0118.html",
+							"description": "如果车辆需要牵引，应由广汽传祺特约店或专业拖车公司进行牵引。",
+							"children": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

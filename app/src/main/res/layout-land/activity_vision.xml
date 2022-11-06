@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/assets_images_360_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.fragment.app.FragmentContainerView android:id="@+id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RadioGroup android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/visionGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <RadioButton android:gravity="center" android:id="@+id/outRb" android:background="@drawable/selector_bg_vision_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/vision_typa_out" style="@style/NormalTextStyle" />
+        <RadioButton android:gravity="center" android:id="@+id/inRb" android:background="@drawable/selector_bg_vision_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="@string/vision_type_in" android:layout_marginStart="@dimen/dp_40" style="@style/NormalTextStyle" />
+    </RadioGroup>
+</FrameLayout>

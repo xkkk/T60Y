@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/margin_50" android:paddingBottom="@dimen/margin_50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@+id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="100.0dip" android:layout_marginEnd="100.0dip" />
+    <include android:id="@+id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/include_empty_layout" />
+</FrameLayout>

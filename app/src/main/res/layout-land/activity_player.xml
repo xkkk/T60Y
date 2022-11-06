@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baorun.handbook.t60y.widget.JzvdStdAssert android:id="@+id/player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_gravity="end|center|top" android:id="@+id/collectLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_marginEnd="90.0dip" layout="@layout/include_search_collect_layout" />
+</FrameLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/idIcon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_baseline_feedback_24"
+        app:layout_constraintBottom_toBottomOf="@id/feedbackTypeTv"
+        app:layout_constraintEnd_toStartOf="@id/feedbackTypeTv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/feedbackTypeTv" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/feedbackTypeTv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_feedback_type"
+        android:padding="@dimen/margin_15"
+        android:text="售后服务"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_20"
+        app:drawableEndCompat="@drawable/ic_baseline_arrow_drop_down_24"
+        app:layout_constraintStart_toEndOf="@id/idIcon1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/idIcon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_baseline_feedback_24"
+        app:layout_constraintBottom_toBottomOf="@id/feedbackEt"
+        app:layout_constraintStart_toStartOf="@id/idIcon1"
+        app:layout_constraintTop_toTopOf="@id/feedbackEt" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/feedbackEt"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_50"
+        android:background="@drawable/bg_feedback_et"
+        android:hint="反馈内容*必填"
+        android:padding="@dimen/margin_15"
+        android:textColorHint="#999999"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_20"
+        android:maxLength="100"
+        app:layout_constraintStart_toStartOf="@id/feedbackTypeTv"
+        app:layout_constraintTop_toBottomOf="@id/feedbackTypeTv" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/submitTv"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_24"
+        android:background="@drawable/btn_feedback_submit"
+        app:layout_constraintStart_toStartOf="@id/feedbackEt"
+        app:layout_constraintTop_toBottomOf="@id/feedbackEt"
+        android:layout_marginTop="@dimen/margin_50"
+        app:layout_constraintEnd_toEndOf="@id/feedbackEt"
+        android:text="提交"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

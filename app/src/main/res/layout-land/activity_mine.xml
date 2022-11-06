@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="150.0dip" android:paddingEnd="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:layout_gravity="center_vertical" android:id="@+id/radioGroup" android:layout_width="300.0dip" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/feedbackRb" android:checked="true" android:text="@string/mine_radio_feedback" style="@style/MineRadioButtonStyle" />
+        <RadioButton android:id="@+id/historyRb" android:layout_marginTop="40.0dip" android:text="@string/mine_radio_history" style="@style/MineRadioButtonStyle" />
+        <RadioButton android:id="@+id/aboutRb" android:layout_marginTop="40.0dip" android:text="@string/mine_radio_about" style="@style/MineRadioButtonStyle" />
+    </RadioGroup>
+    <androidx.fragment.app.FragmentContainerView android:id="@+id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip" android:layout_marginBottom="40.0dip" android:layout_marginStart="130.0dip" />
+</LinearLayout>

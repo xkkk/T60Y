@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url "https://www.jitpack.io" }
+        maven { url = uri("https://dl.bintray.com/kotlin/kotlin-eap") }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "T60Y"
+include ':app'
+include ':library'

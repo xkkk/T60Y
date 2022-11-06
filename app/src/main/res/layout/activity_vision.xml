@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/home_tab_margin"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/visionGroup"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/outRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vision_typa_out"
+            android:checked="true"
+            style="@style/NormalTextStyle"
+            android:gravity="center"
+            android:background="@drawable/selector_bg_vision_type"
+            android:button="@null"/>
+        <RadioButton
+            android:id="@+id/inRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            style="@style/NormalTextStyle"
+            android:layout_marginStart="@dimen/dp_40"
+            android:gravity="center"
+            android:background="@drawable/selector_bg_vision_type"
+            android:text="@string/vision_type_in"/>
+    </RadioGroup>
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</FrameLayout>
