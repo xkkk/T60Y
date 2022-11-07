@@ -13,7 +13,7 @@ android {
         minSdk 27
         targetSdk 32
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndk {
@@ -27,6 +27,12 @@ android {
     }
 
     buildTypes {
+//        signingConfigs{
+//            keyAlias 'QGZlbmdtby9HQTA4'
+//            keyPassword 'a5dbd068b77c4318ab4f458889f93b43'
+//            storeFile file('../GA08.jks')
+//            storePassword '42a20235d49841a9b81bba2d8741edce'
+//        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
