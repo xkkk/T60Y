@@ -1,0 +1,167 @@
+{
+	"dataType": "语音模块",
+	"data": [
+		{
+			"parentId": "ss_arr1",
+			"belong": "ss_arr1",
+			"id": "ss_front_collision_warning",
+			"name": "前碰撞预警",
+			"htmlUrl": "/s0001.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr2",
+			"belong": "ss_arr2",
+			"id": "ss_active_brake_assist",
+			"name": "主动制动辅助",
+			"htmlUrl": "/s0002.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr3",
+			"belong": "ss_arr3",
+			"id": "ss_blind_area_detection",
+			"name": "盲区监测",
+			"htmlUrl": "/s0003.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr4",
+			"belong": "ss_arr4",
+			"id": "ss_opening_warning",
+			"name": "开门预警",
+			"htmlUrl": "/s0004.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr5",
+			"belong": "ss_arr5",
+			"id": "ss_vehicles_behind_assist",
+			"name": "后方车辆穿行辅助（RCTA/RCTB）",
+			"htmlUrl": "/s0005.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr6",
+			"belong": "ss_arr6",
+			"id": "ss_vehicle_approaching_assist",
+			"name": "后车迫近辅助",
+			"htmlUrl": "/s0006.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr7",
+			"belong": "ss_arr7",
+			"id": "ss_intersection_assist",
+			"name": "交叉路口辅助",
+			"htmlUrl": "/s0007.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr8",
+			"belong": "ss_arr8",
+			"id": "ss_speed_limit_sign",
+			"name": "限速标志识别",
+			"htmlUrl": "/s0008.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr9",
+			"belong": "ss_arr9",
+			"id": "ss_electronic_eye_overspeed",
+			"name": "电子眼超速报警音",
+			"htmlUrl": "/s0009.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr10",
+			"belong": "ss_arr10",
+			"id": "ss_intelligent_speed_limit",
+			"name": "智能限速控制",
+			"htmlUrl": "/s0010.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr11",
+			"belong": "ss_arr11",
+			"id": "ss_lane_departure_assist",
+			"name": "车道偏离辅助",
+			"htmlUrl": "/s0011.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr12",
+			"belong": "ss_arr12",
+			"id": "ss_lane_keeping_assist",
+			"name": "紧急车道保持辅助",
+			"htmlUrl": "/s0012.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr13",
+			"belong": "ss_arr13",
+			"id": "ss_adaptive_cruise",
+			"name": "自适应巡航",
+			"htmlUrl": "/s0013.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr14",
+			"belong": "ss_arr14",
+			"id": "ss_integrated_cruise",
+			"name": "集成巡航",
+			"htmlUrl": "/s0014.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr15",
+			"belong": "ss_arr15",
+			"id": "ss_paddle_lane_change",
+			"name": "拨杆变道",
+			"htmlUrl": "/s0015.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr16",
+			"belong": "ss_arr16",
+			"id": "ss_parking_space_push",
+			"name": "智能泊车车位推送",
+			"htmlUrl": "/s0016.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr17",
+			"belong": "ss_arr17",
+			"id": "ss_intelligent_high_beam_lamp",
+			"name": "智能远光灯",
+			"htmlUrl": "/s0017.html",
+			"description": "",
+			"children": []
+		},
+		{
+			"parentId": "ss_arr18",
+			"belong": "ss_arr18",
+			"id": "ss_Intelligent_high_beam _adb",
+			"name": "智能远光灯（ADB）",
+			"htmlUrl": "/s0018.html",
+			"description": "",
+			"children": []
+		}
+	]
+}
